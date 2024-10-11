@@ -1,6 +1,7 @@
 /*styles.css*/
 
 body {
+
     font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -27,7 +28,7 @@ p {
 
     
     color: rgb(59, 52, 52);
-    font-size: 1vh;
+    font-size: 3vh;
     text-align: center;
 
 }
