@@ -52,7 +52,7 @@ section {
 article {
     text-align: left;
     color: rgb(59, 52, 52);
-    font-size: 1,2rem;
+    font-size: 1rem;
     margin: 20px;
     margin-left: 35%;
 
@@ -85,7 +85,7 @@ footer {
     }
 
     section, article {
-        font-size: 0,9rem;
+        font-size: 1rem;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -95,12 +95,12 @@ footer {
     }
 
     .button-link {
-        font-size: 0,9rem;
+        font-size: 1rem;
         padding: 8px 12px;
     }
 
     footer {
-        font-size: 0,9rem;
+        font-size: 1rem;
         padding: 5px 10px;
     }
     
