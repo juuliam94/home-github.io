@@ -1,0 +1,133 @@
+/*styles.css*/
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    color: rgb(59, 52, 52);
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+h2 {
+
+    color: rgb(59, 52, 52);
+    font-size: 5vh;
+    text-align: center;
+
+}
+
+p {
+
+    
+    color: rgb(59, 52, 52);
+    font-size: 1,2vh;
+    text-align: center;
+
+}
+
+.square {
+
+    background-color: hwb(54 60% 4%);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20%;
+    margin: auto;
+}
+
+.square2 {
+
+    background-color: hwb(54 60% 4%);
+    width: 100%;
+    height: auto;    
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.work {
+
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.list {
+
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul {
+    text-indent: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.button-link {
+    justify-content: center;
+    padding: 1% 2%;
+    background-color: #faed5b;
+    color: rgb(59, 52, 52);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1,2rem;
+    margin: 10px 0;
+}
+
+footer {
+    
+    color: rgb(59, 52, 52);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+} 
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 4vh;
+    }
+
+    h2 {
+        font-size: 3.5vh;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .work {
+        font-size: 0.9rem;
+    }
+
+    .list {
+        width: 95%;
+    }
+
+    .button-link {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+}

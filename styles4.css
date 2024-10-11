@@ -1,0 +1,68 @@
+/*styles.css*/
+
+header {
+
+font-size: 6vh;
+text-align: center;
+color: rgb(59, 52, 52);
+font-family:'Times New Roman', Times, serif
+}
+
+.square {
+background-color: hwb(54 60% 4%);
+width: 100%;
+height: auto;
+max-width: 2000px;
+margin: auto;
+}
+
+article {
+    font-size: 25px;
+    text-align: center;
+}
+
+nav {
+text-align: center;
+margin-top: 4%;
+display: flex; 
+justify-content: center;
+gap: 1%;
+}
+
+.button-link {
+justify-content: center;
+padding: 1% 1%;
+background-color: #faed5b;
+color: rgb(59, 52, 52);
+text-decoration: none;
+border-radius: 50px;
+font-size: 4vh;
+display: inline-block;
+}
+
+a {
+    color: rgb(59, 52, 52);
+    font-size: 25px;
+}
+
+footer {
+    color: rgb(59, 52, 52);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    margin-bottom: auto;
+}
+@media only screen and (max-width: 480px) {
+    article {
+        font-size: 3vh;
+}
+    a {
+        font-size: 0,9rem;
+    }
+    .button-link {
+        font-size: 0,9rem;
+        padding: 8px 16px;
+    }
+
+}
