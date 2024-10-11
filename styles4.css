@@ -1,7 +1,12 @@
 /*styles.css*/
+body {
+    font-family:'Times New Roman', Times, serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
 header {
-
 font-size: 6vh;
 text-align: center;
 color: rgb(59, 52, 52);
