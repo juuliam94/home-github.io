@@ -63,7 +63,7 @@ p {
     text-align: left;
     list-style-position: inside;
     padding-left: 0;
-    margin-left: 20%;
+    margin-left: 35%;
 }
 
 nav {
@@ -115,6 +115,7 @@ footer {
 
     .list {
         width: 95%;
+        margin: auto;
     }
 
     .button-link {
