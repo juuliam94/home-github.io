@@ -59,12 +59,19 @@ footer {
     margin-bottom: auto;
 }
 @media only screen and (max-width: 480px) {
+    
+    header {
+        font-size: 4vh;
+    }
+
     article {
         font-size: 3vh;
-}
+    }
+
     a {
         font-size: 0,9rem;
     }
+    
     .button-link {
         font-size: 1rem;
         padding: 8px 12px;
