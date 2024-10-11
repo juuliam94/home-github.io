@@ -74,9 +74,7 @@ nav {
 }
 
 ul {
-    text-indent: 0;
-    padding-left: 0;
-    margin-left: 0;
+    text-indent: -3%;
 }
 
 .button-link {
